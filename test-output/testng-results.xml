@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-31T14:23:15 IST" name="Suite" finished-at="2025-03-31T14:23:23 IST" duration-ms="8154">
+    <groups>
+      <group name="Master">
+        <method signature="TC_AccountRegistractionTest.login()[pri:0, instance:testCases.TC_AccountRegistractionTest@7748410a]" name="login" class="testCases.TC_AccountRegistractionTest"/>
+        <method signature="TC_LoginPage.Logincheck()[pri:0, instance:testCases.TC_LoginPage@568ff82]" name="Logincheck" class="testCases.TC_LoginPage"/>
+      </group> <!-- Master -->
+      <group name="regression">
+        <method signature="TC_AccountRegistractionTest.login()[pri:0, instance:testCases.TC_AccountRegistractionTest@7748410a]" name="login" class="testCases.TC_AccountRegistractionTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_LoginPage.Logincheck()[pri:0, instance:testCases.TC_LoginPage@568ff82]" name="Logincheck" class="testCases.TC_LoginPage"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-03-31T14:23:15 IST" name="Test" finished-at="2025-03-31T14:23:23 IST" duration-ms="8154">
+      <class name="testCases.TC_LoginPage">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_LoginPage@568ff82]" started-at="2025-03-31T14:23:19 IST" name="setUp" finished-at="2025-03-31T14:23:21 IST" duration-ms="2446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Logincheck()[pri:0, instance:testCases.TC_LoginPage@568ff82]" started-at="2025-03-31T14:23:21 IST" name="Logincheck" finished-at="2025-03-31T14:23:23 IST" duration-ms="1661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logincheck -->
+      </class> <!-- testCases.TC_LoginPage -->
+      <class name="testCases.TC_AccountRegistractionTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_AccountRegistractionTest@7748410a]" started-at="2025-03-31T14:23:15 IST" name="setUp" finished-at="2025-03-31T14:23:18 IST" duration-ms="3141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:0, instance:testCases.TC_AccountRegistractionTest@7748410a]" started-at="2025-03-31T14:23:18 IST" name="login" finished-at="2025-03-31T14:23:19 IST" duration-ms="864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- testCases.TC_AccountRegistractionTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,3 @@
+AppUrl=https://tutorialsninja.com/demo/
+Email=justinbiber@gmail.com
+password=test@123
